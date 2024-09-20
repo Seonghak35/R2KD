@@ -54,12 +54,12 @@ python setup.py develop
 
   ```bash
   # augmentation_type = ["mixup", "cutmix", "cutout", "autoaug", "cutmixpick"]
-  python tools/train.py --cfg configs/tiny/r2kd/cutout/wrn40_2_wrn16_2.yaml --pruning -a augmentation_type
-  python tools/train.py --cfg configs/tiny/r2kd/cutout/res56_res20.yaml --pruning -a augmentation_type
-  python tools/train.py --cfg configs/tiny/r2kd/cutout/res32x4_res8x4.yaml --pruning -a augmentation_type
-  python tools/train.py --cfg configs/tiny/r2kd/cutout/vgg13_vgg8.yaml --pruning -a augmentation_type
-  python tools/train.py --cfg configs/tiny/r2kd/cutout/vgg13_mv2.yaml --pruning -a augmentation_type
-  python tools/train.py --cfg configs/tiny/r2kd/cutout/res32x4_shuv2.yaml --pruning -a augmentation_type
+  python tools/train.py --cfg configs/tiny/r2kd/wrn40_2_wrn16_2.yaml --pruning -a augmentation_type
+  python tools/train.py --cfg configs/tiny/r2kd/res56_res20.yaml --pruning -a augmentation_type
+  python tools/train.py --cfg configs/tiny/r2kd/res32x4_res8x4.yaml --pruning -a augmentation_type
+  python tools/train.py --cfg configs/tiny/r2kd/vgg13_vgg8.yaml --pruning -a augmentation_type
+  python tools/train.py --cfg configs/tiny/r2kd/vgg13_mv2.yaml --pruning -a augmentation_type
+  python tools/train.py --cfg configs/tiny/r2kd/res32x4_shuv2.yaml --pruning -a augmentation_type
   ```
 
 ## Citation
