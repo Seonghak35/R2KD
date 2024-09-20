@@ -1,0 +1,7 @@
+yacs
+wandb
+setuptools==58.2.0
+scipy
+tqdm
+tensorboardX
+numpy==1.23.0
